@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block headmain %}
+        <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
+        <script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+    {% endblock %}
+</head>
+<body>
+    {% block bodymain %}
+        <div class="page">
+        </div>
+    {% endblock %}
+
+    {% block bodyfooter %}
+        <script class="page-script">
+        </script>
+        <footer class="page-footer">
+        </footer>
+    {% endblock %}
+</body>
+</html>
