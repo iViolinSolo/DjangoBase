@@ -87,3 +87,6 @@ $ pip install mysqlclient
 
 2.[Django + MySQL 配置](http://www.runoob.com/django/django-model.html)
 里面写了具体如何引入mysql及对应配置方法
+
+#注意
+记得实用的时候去setting下更新数据库的schema的名字以及对应的用户信息
